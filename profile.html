@@ -15,18 +15,20 @@
 <body>
   <header>
     <nav>
-      <img src="logo.png" alt="LinkedOut" class="logo">
-      <a href="#">Companies</a>
-      <a href="#">Colleagues</a>
-      <a href="#">Jobs</a>
-      <a href="#">Me</a>
+      <a href="/"><img src="logo.png" alt="LinkedOut" class="logo"></a>
+      <a class="hide-on-mobile" href="#">Companies</a>
+      <a class="hide-on-mobile" href="#">Colleagues</a>
+      <a class="hide-on-mobile" href="#">Jobs</a>
+      <a href="#" style="float: right;">Me</a>
     </nav>
   </header>
   <main>
-    <section>
+    <section style="display: flex; align-items: center;">
       <img src="https://thispersondoesnotexist.com" alt="Avatar" class="avatar">
-      <h1>Name Surname</h1>
-      <span>Job Title</span>
+      <div style="padding-left: 20px">
+        <h1>Name Surname</h1>
+        <span>Job Title</span>
+      </div>
     </section>
     <section>
         <h2>About me</h2>
@@ -83,6 +85,43 @@
       </pre>
       <q>This employee and his consequences have been a disaster for the company</q><br>
       <b><i>Elon Musk, CEO of Mars<sup>tm</sup></i></b>
+    </section>
+    <section>
+      <h2>Freelance prices</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Job</th>
+            <th>USD/hr</th>
+            <th>USD/mo</th>
+            <th>USD/full</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Web design</th>
+            <td>20</td>
+            <td>2000</td>
+            <td>Upon request</td>
+          </tr>
+          <tr>
+            <th>Backend</th>
+            <td>30</td>
+            <td>3000</td>
+            <td>1000 / microserv.</td>
+          </tr>
+          <tr>
+            <th>Coaching</th>
+            <td>100</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th>CV</th>
+            <td colspan="3">SCROLL UP!</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
   <footer>
