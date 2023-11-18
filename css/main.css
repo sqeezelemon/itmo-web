@@ -35,6 +35,10 @@ header nav a:hover {
     background-color: #182b6e;
 }
 
+header nav a.nav-active {
+    font-weight: bolder;
+}
+
 img {
     background-color: transparent;
 }
@@ -139,4 +143,16 @@ th {
 }
 td, th {
     padding: 5px 10px;
+}
+
+div.debug {
+    position:fixed;
+    bottom: 10px;
+    left: 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    /* width: 200px;
+    height: 100px; */
+    background-color: rgba(255, 255, 255, 0.5);
 }
